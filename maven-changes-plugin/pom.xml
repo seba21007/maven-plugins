@@ -205,7 +205,7 @@ under the License.
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-utils</artifactId>
-      <version>2.0.5</version>
+      <version>3.0.22</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
@@ -342,7 +342,7 @@ under the License.
     <dependency>
       <groupId>org.eclipse.mylyn.github</groupId>
       <artifactId>org.eclipse.egit.github.core</artifactId>
-      <version>1.2.0</version>
+      <version>2.1.5</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -445,6 +445,7 @@ under the License.
           </execution>
         </executions>
         <configuration>
+          <useJava5>true</useJava5>
           <version>1.0.0</version>
           <models>
             <model>src/main/mdo/changes.mdo</model>
